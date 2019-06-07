@@ -19,3 +19,5 @@ Usage : ./kaos-ponda.py [-OPTION=VAL]
 >`python kaos-POnDa.py -victim=random -action=random -hurtsystempods=no -num=5-10 -interval=10-20`
 
 
+## Note
+Add your system pods list in the python file to the global var. This is a specific list of pods that are running for managing the k8s cluster. Populate this list if you want to save them from being hurt and set `-hurtsystempods` to yes
